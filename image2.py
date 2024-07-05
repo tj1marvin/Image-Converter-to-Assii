@@ -42,11 +42,11 @@ def save_to_file(ascii_art, file_path):
         file.write(ascii_art)
 
 # Example usage:
-image_path = '/Users/mac/PycharmProjects/pythonProject/IMG_0197.jpg'  # Update this path
+image_path = 'IMG_0197.jpg'  # Update this path
 ascii_art = convert_to_ascii(image_path)
 
 # Save the ASCII art to a text file
-file_path = '/Users/mac/PycharmProjects/pythonProject/ascii_art.txt'  # Update this path
+file_path = 'ascii_art.txt'  # Update this path
 save_to_file(ascii_art, file_path)
 
 print(f"ASCII art saved to {file_path}")
